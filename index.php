@@ -14,7 +14,7 @@ class User {
 }
 
 $tom = new User("Tom");
-$bob = new User("Bob");
+//$bob = new User("Bob");
 
 $tom->sayHi();
 echo $bob->name;
