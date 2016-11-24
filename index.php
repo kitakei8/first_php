@@ -1,6 +1,12 @@
 <?php
 
 //setcookie("username", "taguchi");
-//setcookie("name", "kei", time()+60);
 
-echo $_COOKIE['name'];
+session_start();
+
+//$_SESSION['username'] = "taguchi";
+
+
+unset($_SESSION['username']);
+
+echo $_SESSION['username'];
