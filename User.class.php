@@ -1,5 +1,7 @@
 <?php
 
+namespace Kitakei8\Lib;
+
 class User {
   public $name;
 
