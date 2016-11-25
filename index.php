@@ -1,5 +1,4 @@
 <?php
-
 //setcookie("username", "taguchi");
 
 session_start();
